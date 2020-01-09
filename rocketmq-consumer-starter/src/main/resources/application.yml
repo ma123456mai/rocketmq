@@ -1,0 +1,4 @@
+server:
+  port: 9777
+
+rocketmq.name-server: 192.168.100.29:9876

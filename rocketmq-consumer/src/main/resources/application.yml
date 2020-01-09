@@ -1,0 +1,11 @@
+server:
+  port: 9777
+
+spring.application.name: consumer
+
+rocketmq:
+  # œ˚∑—’ﬂ≈‰÷√
+  consumer:
+    groupName: ${spring.application.name}
+    namesrvAddr: 192.168.100.29:9876
+
